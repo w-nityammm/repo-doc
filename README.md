@@ -93,12 +93,9 @@ repo-doc info https://github.com/golang/go
 ### Include Pull Requests
 
 ```bash
-# Show 5 most recent pull requests
-repo-doc info golang/go --prs
-repo-doc info golang/go -p
-
 # Show specific number of pull requests (up to 100)
 repo-doc info golang/go --prs 15
+repo-doc info golang/go -p 15
 ```
 
 ### Output Formats
